@@ -1,0 +1,180 @@
+
+/*atuliazar*/
+
+body{
+    background-color: blanchedalmond;
+    border:solid chocolate;
+    min-height: calc(100vh - 16px) ;
+    box-sizing: border-box;
+    border-radius: none;
+    padding-bottom: 40px;
+
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color:chocolate;
+    font-style: italic;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+
+    font-style:initial;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+    padding-top: 5px;
+    text-align: justify;
+    margin: auto 20px;
+}
+li{
+    margin: auto 20px;
+}
+img{
+    display: flex;
+    margin: auto;
+    border:  1px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    right: 45%;
+    width: 15%;
+	display: inline-block;
+}
+#div-button {
+    height: 50px;
+    width: 100px;
+    background-color: chocolate;
+    text-align: center;
+    border: 2px solid rgb(126, 64, 19);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#div-central {
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    margin-left: 10px;
+}
+
+#abaixar{
+    margin-top: 10px;
+
+}
+#subir{
+    margin-bottom: 10px;
+}
+.maior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#div-quadrinhos, #div-quadrinhos1, #div-quadrinhos2{
+    width: 500px;
+    height: 500px ;
+    margin:20px 30px 40px 50px ;
+    border: 20px 30px 40px 50px ;
+}
+.img-comida {
+
+    height: 75%;
+    width: 75%;
+    object-fit: cover;
+    border:  1px solid rgb(0, 0, 0);
+    border-radius: 5%; 
+}
+.p-comida {
+    position: relative;
+    top: 0;
+    
+}
+
+
+
+
+#organizarMenuLogo{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    border: none;
+    align-items: center;
+
+}
+
+
+header{
+    background-color: rgb(192, 84, 8);
+    width: 100%;
+    padding: 5px;
+}
+#logo {
+    width: 100% ;
+    border: none;
+    text-decoration: none;
+    right: 50%;
+}
+#logo img{
+    top:50%;
+    right:50%;
+    width: 30%;
+    height: 20%;
+    border: none;
+    cursor: pointer;
+}
+#menu {
+    width: 50%;
+}
+#menu nav a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding-right: 50px;
+    border: none;
+    justify-content: center;
+    font-size: 18px;
+}
+#menu nav a:hover{
+    color: rgb(133, 71, 27)
+}
+
+img{
+    width: 50%;
+}
+
+
+/*footer*/
+#footerFinal{
+    display: flex;
+    background-color: rgb(192, 84, 8);
+    padding-top: none;
+    padding-bottom: none;
+    justify-content:left;
+}
+#iconesSociais  button{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    background-image: linear-gradient(45deg, rgb(126, 69, 28), chocolate);
+    margin:  15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px ;
+    cursor:pointer;
+    
+
+
+
+
+}
+#iconesSociais  button i{
+    font-size: 15px;
+    color: aliceblue;
+
+
+}
