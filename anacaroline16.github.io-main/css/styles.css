@@ -33,6 +33,7 @@ p{
     padding-top: 5px;
     text-align: justify;
     margin: auto 20px;
+    
 }
 li{
     margin: auto 20px;
@@ -51,7 +52,7 @@ img{
     width: 100px;
     background-color: chocolate;
     text-align: center;
-    border: 2px solid rgb(126, 64, 19);
+    border:none;
     border-radius: 30px;
     color: rgb(0, 0, 0);
     display: flex;
@@ -151,6 +152,7 @@ header{
 
 img{
     width: 50%;
+    margin:auto 20px;
 }
 
 
